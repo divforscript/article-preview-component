@@ -1,0 +1,19 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  caret-color: transparent;
+  box-sizing: border-box;
+
+  font-family: 'Manrope',sans-serif;
+}
+
+/* size-7 rounded-4xl pt-[6px] pl-[7px] */
+
+.forward-arrow {
+  width: 28px;
+  height: 28px;
+  border-radius: 32px;
+  padding-top: 6px;
+  padding-left: 7px;
+}
+
