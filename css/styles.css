@@ -36,13 +36,22 @@
 
 
 .forward-arrow {
-  width: 28px;
-  height: 28px;
-  border-radius: 32px;
-  padding-top: 6px;
-  padding-left: 7px;
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   position: absolute;
+  right: 0;
+  
+}
+
+.forward-arrow > svg {
+
+  scale: 1.1;
 }
 
 
