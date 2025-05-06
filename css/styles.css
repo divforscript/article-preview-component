@@ -33,8 +33,6 @@
 }
 
 
-
-
 .forward-arrow {
   width: 8vw;
   height: 8vw;
@@ -45,13 +43,15 @@
   align-items: center;
 
   position: absolute;
-  right: 0;
-  
 }
 
 .forward-arrow > svg {
-
   scale: 1.1;
+}
+
+.font-medium2 {
+  font-weight: 500;
+  font-size: clamp(13px,max(3.8vw,1.9vh),40px);
 }
 
 
