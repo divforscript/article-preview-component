@@ -18,6 +18,11 @@
   <div id="root-wrapper" 
   class="overflow-auto w-full h-screen">
 
+    <div id="inset-background" 
+    class="inset-background hidden">
+
+    </div>
+
     <div id="page-wrapper"
     class="page-wrapper bg-[#ecf2f8] px-6
     min-w-[320px] 
@@ -29,7 +34,7 @@
 
       flex flex-col justify-center"> <!--h-[75%]-->
 
-      <img id="main-img-wrapper"
+        <img id="main-img-wrapper"
         class="main-img-wrapper rounded-t-xl object-cover
         w-full
         h-[46vw]
@@ -40,17 +45,23 @@
         class="bg-[#ffff] rounded-b-xl px-7 pt-8 pb-6 relative
         w-full
         ">
+
+          <!-- <div id="main-text"
+          class="main-text">
+            
+          </div> -->
+
           <h1
-          class="main-h1 text-[#48556a]
-          ">  <!-- h-[30%] -->
-            Shift the overall look and feel by adding these wonderful touches to furniture in your home
-          </h1>
+            class="main-h1 text-[#48556a]
+            ">  <!-- h-[30%] -->
+              Shift the overall look and feel by adding these wonderful touches to furniture in your home
+            </h1>
 
-          <p id="p" class="main-p page-font w-full pt-4
-          ">  <!-- h-[50%] -->
-            Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
-          </p>
-
+            <p id="p" class="main-p page-font w-full pt-4
+            ">  <!-- h-[50%] -->
+              Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.
+            </p>
+          
 
           <footer id="footer" 
           class="footer
@@ -82,9 +93,10 @@
           </footer>
 
           <section id="share-section"
-          class="share-section rounded-b-xl absolute bottom-0 left-0 hidden
+          class="share-section rounded-b-xl absolute bottom-0 z-3 left-0 hidden
           w-full 
           h-[calc(13.2vw+26px)]">
+
             
             <div id="share-wrapper"
             class="share-wrapper bg-[#48556a] w-full h-full rounded-b-xl px-8 flex items-center">
@@ -95,17 +107,17 @@
               class="social-icons-wrapper w-[70%] pl-[6vw] flex items-center gap-[10%]">
 
                 <a href="https://es-la.facebook.com/" target="_blank">
-                  <img id="fb-svg" 
+                  <img id="fb-svg" class="social-icons"
                   src="./article-preview-component-master/images/icon-facebook.svg" alt="">
                 </a>
 
                 <a href="https://x.com/?lang=es" target="_blank">
-                  <img id="tw-svg" 
+                  <img id="tw-svg" class="social-icons"
                   src="./article-preview-component-master/images/icon-twitter.svg" alt="">
                 </a>
 
                 <a href="https://www.pinterest.com/peru/" target="_blank">
-                  <img id="pt-svg" 
+                  <img id="pt-svg" class="social-icons"
                   src="./article-preview-component-master/images/icon-pinterest.svg" alt="">
                 </a>
 

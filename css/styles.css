@@ -12,6 +12,14 @@
   font-size: clamp(13px,calc(max(2.9vw,1.5vh) + 0.19rem),40px);
 }
 
+.inset-background {
+
+  position: absolute;
+  inset: 0;
+
+  z-index: 2;
+}
+
 
 /* size-7 rounded-4xl pt-[6px] pl-[7px] */
 .main-h1 {
@@ -46,7 +54,7 @@
   position: absolute;
 }
 
-.forward-arrow > svg {
+.social-icons {
   scale: 1.1;
 }
 
@@ -61,15 +69,4 @@
     width: 100%;
   }
 }
-
-
-
-
-
-@media only screen and (847px < width) {
-  .share-wrapper {
-    left: 0px; 
-  }
-}
-
 
