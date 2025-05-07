@@ -1,0 +1,5 @@
+@media only screen and (847px < width) {
+  .share-wrapper {
+    left: 0px; 
+  }
+}
