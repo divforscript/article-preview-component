@@ -3,10 +3,8 @@ const forwardArrowWrapper1 = document.getElementById("forward-arrow-wrapper1")
 const forwardArrowWrapper2 = document.getElementById("forward-arrow-wrapper2")
 const insetBackground = document.getElementById("inset-background")
 
-console.log(forwardArrowWrapper1)
+
 let isShareBarShowed = false
-
-
 
 
 forwardArrowWrapper1.onclick = () => {

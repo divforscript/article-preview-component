@@ -62,7 +62,7 @@
   }
 
   .main-h1 {
-
+    
     width: 100%;
     font-weight: 700;
     font-size: clamp(20px,max(1.5vw,2vh),21px);
